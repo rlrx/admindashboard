@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="searchbar-container">
+                <input type="text" class="searchbar" placeholder="Search Projects...">
+                <button class="search-button">Search</button>
+            </div>
+            <div class="profile-notification">
+                <div class="notif-bell">Notification Bell</div>
+                <div class="profile-pic">Profile Pic</div>
+                <h5 class="username">Morgan Oakley</h5>
+            </div>
+            <div class="user-greeting">
+                <h5>Hi there,</h5>
+                <h4>Morgan Oakley (@morgan)</h4>
+            </div>
+            <ul class="header-options">
+                <li class="new-button-li"><button class="new-button">New</button></li>
+                <li class="upload-button-li"><button class="upload-button">Upload</button></li>
+                <li class="share-button-li"><button class="share-button">Share</button></li>
+            </ul>
+        </div>
+        <div class="sidebar">
+            <div class="title">
+                <svg class="title-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>view-dashboard</title><path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" /></svg>
+                <div class="title-name">Dashboard</div>
+            </div>
+            <div class="sidebar-links">
+                <ul class="top-sidebar-links">
+                    <li><a href=""><img class="svg-images" src="svg-images/home-account.svg">Home</a></li>
+                    <li><a href=""><img class="svg-images" src="svg-images/account-circle.svg">Profile</a></li>
+                    <li><a href=""><img class="svg-images" src="svg-images/message-alert-outline.svg">Messages</a></li>
+                    <li><a href=""><img class="svg-images" src="svg-images/history.svg">History</a></li>
+                    <li><a href=""><img class="svg-images" src="svg-images/file-tree.svg">Tasks</a></li>
+                    <li><a href=""><img class="svg-images" src="svg-images/account-group.svg">Communities</a></li>
+                </ul>
+                <ul class="bottom-sidebar-links">
+                    <li><a href=""><img class="svg-images" src="svg-images/cog.svg">Settings</a></li>
+                    <li><a href=""><img class="svg-images" src="svg-images/face-agent.svg">Support</a></li>
+                    <li><a href=""><img class="svg-images" src="svg-images/shield-check-outline.svg">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="left-main-content">
+                <div class="your-projects">Your Projects</div>
+                <div class="projects-container">
+                    <div class="project1 dialog">project 1</div>
+                    <div class="project2 dialog">project 2</div>
+                    <div class="project3 dialog">project 3</div>
+                    <div class="project4 dialog">project 4</div>
+                    <div class="project5 dialog">project 5</div>
+                    <div class="project6 dialog">project 6</div>
+                </div>
+            </div>
+            <div class="right-main-content">
+                <div class="announcement">Announcement</div>
+                <div class="announcement-container dialog">
+                    <div class="announcement1">Site Maintenance</div>
+                    <div class="announcement2">Community Share Day</div>
+                    <div class="announcement3">Updated Privacy Policy</div>
+                </div>
+                <div class="trending">Trending</div>
+                <div class="trending-container dialog">
+                    <div class="trending1">@tegan</div>
+                    <div class="trending2">@morgan</div>
+                    <div class="trending3">@kendall</div>
+                    <div class="trending4">@alex</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
